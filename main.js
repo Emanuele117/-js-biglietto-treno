@@ -22,7 +22,7 @@ var prezzoScontato = prezzoBiglietto - sconto;
 prezzoScontato = prezzoScontato.toFixed(2);
 console.log(prezzoScontato);
 
-document.getElementById('prezzoBiglietto').innerHTML = 0.21 * userRandomOne;
+document.getElementById('prezzoScontato').innerHTML = 0.21 * userRandomOne;
 
 
 
